@@ -1,0 +1,5 @@
+#fileTypes
+*.jar
+
+#lib dir 
+libs/
