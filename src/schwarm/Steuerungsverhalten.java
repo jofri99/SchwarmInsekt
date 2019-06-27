@@ -42,13 +42,13 @@ public class Steuerungsverhalten {
 		Vektor2D lightPos = new Vektor2D();
 		switch(lightSource) {
 		case 1:
-			lightPos = new Vektor2D(200,300);
+			lightPos = new Vektor2D(100,100);
 			break;
 		case 2:
-			lightPos = new Vektor2D(400,600);
+			lightPos = new Vektor2D(500,100);
 			break;
 		case 3: 
-			lightPos = new Vektor2D(800,600);
+			lightPos = new Vektor2D(300,400);
 			break;
 		}
 		
