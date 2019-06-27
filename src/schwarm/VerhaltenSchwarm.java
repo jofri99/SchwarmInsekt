@@ -7,13 +7,11 @@ public class VerhaltenSchwarm implements Verhalten{
 	private Insekt insekt;
 	private Steuerungsverhalten steering;
 	private final float MAX_VELOCITY = 5;
-	private Lampe[] lampenArr;
 
-	public VerhaltenSchwarm(Insekt insekt,Lampe[] lampenArr) {
+	public VerhaltenSchwarm(Insekt insekt,int lightsource) {
 		this.insekt = insekt;
 		this.steering = new Steuerungsverhalten();
-		this.lampenArr = lampenArr;
-		this.steering.setLightSource(3);
+		this.steering.setLightSource(lightsource);
 	}
 	
 	@Override

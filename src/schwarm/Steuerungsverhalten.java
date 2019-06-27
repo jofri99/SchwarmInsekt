@@ -45,7 +45,7 @@ public class Steuerungsverhalten {
 			lightPos = new Vektor2D(100,100);
 			break;
 		case 2:
-			lightPos = new Vektor2D(500,100);
+			lightPos = new Vektor2D(400,200);
 			break;
 		case 3: 
 			lightPos = new Vektor2D(300,400);

@@ -6,6 +6,8 @@ import org.lwjgl.input.Mouse;
 public class InputHandler {
 	public boolean[] keys = new boolean[65536];
 	public boolean mouse1;
+	boolean down = false;
+	boolean once = true;
 	
 	public float mouseX,mouseY;
 	
@@ -22,6 +24,7 @@ public class InputHandler {
 			mouse1 = true;
 		}else {
 			mouse1 = false;
+			once = true;
 		}
 		
 		mouseX = Mouse.getX();

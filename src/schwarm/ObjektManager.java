@@ -37,4 +37,5 @@ public class ObjektManager {
 	   public int getInsektSize() {
 	      return insekten.size();
 	   }
+	   
 }
